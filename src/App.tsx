@@ -1,10 +1,13 @@
 import React from 'react';
 import { HelmetProvider } from 'react-helmet-async';
-import RouteConfig from '@/routes';//路由配置
+import { BrowserRouter } from 'react-router-dom';
+import Layouts from '@/components/layout'
 function App() {
   return (
     <HelmetProvider>
-      <RouteConfig></RouteConfig>
+      <BrowserRouter>
+        <Layouts></Layouts>
+      </BrowserRouter>
     </HelmetProvider>
   );
 }

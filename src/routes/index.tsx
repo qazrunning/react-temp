@@ -21,15 +21,13 @@ const routes = [
 ];
 const RouteConfig = () => {
   return (
-    <Router>
       <Switch>
         {routes.map((route, index) => (
           <Route key={index} path={route.path} component={route.component}/>
         ))
         }
-        <Redirect to="/about" from='/' exact />
+        <Redirect to="/home" from='/' exact />
       </Switch>
-    </Router>
   );
 }
 
