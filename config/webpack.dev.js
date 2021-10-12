@@ -33,12 +33,12 @@ const devConfig = {
     open: true,
     hot: true,
     historyApiFallback: true,
-    // proxy: {
-    //   '/api': {
-    //     target: 'http://localhost:3000',
-    //     pathRewrite: { '^/api': '' },
-    //   },
-    // },
+    proxy: {
+      '/api': {
+        target: 'http://127.0.0.1:7300/616536c603bba03fa4d4e251',
+        pathRewrite: { '^/api': '/' },
+      },
+    },
   },
   target: 'web',
   plugins: [

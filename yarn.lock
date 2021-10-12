@@ -1684,6 +1684,11 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
+"@types/mockjs@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.nlark.com/@types/mockjs/download/@types/mockjs-1.0.4.tgz?cache=0&sync_timestamp=1629708396524&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fmockjs%2Fdownload%2F%40types%2Fmockjs-1.0.4.tgz#e706951d5e33b4f0a4bb73b1f8b124e26f081de0"
+  integrity sha1-5waVHV4ztPCku3Ox+LEk4m8IHeA=
+
 "@types/node@*":
   version "16.4.13"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.13.tgz#7dfd9c14661edc65cccd43a29eb454174642370d"
@@ -3049,6 +3054,11 @@ colorette@^1.3.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.4.0.tgz#5190fbb87276259a86ad700bff2c6d6faa3fca40"
   integrity sha512-Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g==
+
+commander@*:
+  version "8.2.0"
+  resolved "https://registry.nlark.com/commander/download/commander-8.2.0.tgz#37fe2bde301d87d47a53adeff8b5915db1381ca8"
+  integrity sha1-N/4r3jAdh9R6U63v+LWRXbE4HKg=
 
 commander@^2.19.0, commander@^2.20.0:
   version "2.20.3"
@@ -6417,6 +6427,13 @@ mkdirp@^0.5.1, mkdirp@^0.5.5:
   integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
   dependencies:
     minimist "^1.2.5"
+
+mockjs@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/mockjs/download/mockjs-1.1.0.tgz#e6a0c378e91906dbaff20911cc0273b3c7d75b06"
+  integrity sha1-5qDDeOkZBtuv8gkRzAJzs8fXWwY=
+  dependencies:
+    commander "*"
 
 moment@^2.24.0, moment@^2.25.3:
   version "2.29.1"
